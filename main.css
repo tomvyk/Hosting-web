@@ -1,0 +1,163 @@
++
+.main-page-info{
+    background-image: url("/assets/images/cloud.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    padding-top: 30px;
+    color: white;
+    opacity: 0.7;
+    font-size: 26px;
+    padding-left:30px;
+}
+.main-heading {
+    color: white;
+    font-size: 32px;
+    margin: 0
+}
+.services-heading, .contact-heading, .registration-heding{
+    font-size: 32px;
+    text-align: center;
+    color: black;
+}
+.main-page-services{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.service-item{
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    border-radius: 17px;
+    width: 20%;
+    text-align: center;
+    background-color: firebrick;
+}
+
+.service-item h2{
+    font-size: 32px;
+}
+
+.service-item p{
+    font-size: 26px;
+}
+
+.service-item ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.services-btn-buy {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    border:solid 2px black;
+    border-radius: 8px;
+}
+.services-btn-buy:hover{
+    color: white;
+    background: black;
+}
+.services-item.recommended{
+    background-color:greenyellow;
+}
+.heading.recommended{
+    background-color: gold;
+}
+
+.social-media-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 48px;
+}
+
+.social-media-item{
+    width: 30%;
+    text-align: center;
+
+}
+
+.social-media-items h3{
+    font-size: 24px;
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+}
+a:active {
+    text-decoration: none;
+    color:white;
+}
+a{
+    color: white;
+}
+.kontakt-main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: dimgrey;
+    padding: 85px 50px 85px 0;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 18px;
+}
+.kontakt-main img {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 18px;
+    border: 5px dashed black;
+}
+.kontakt-info {
+    margin-left: 10%;
+    padding-right: 70px;
+    flex: 2;
+    color: white;
+}
+.kontakty{
+    background-image:url("/assets/images/cloud.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.kontakty h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.kontakt-info h2{
+    font-size: 30px;
+}
+.kontakt-info h3{
+    color: greenyellow;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service-card{
+    border: solid 3px black;
+    width: 900px;
+    margin: 40px auto auto;
+    padding: 12px;
+    border-radius: 18px;
+}
+.service-card:hover{
+    border-color:  blue;
+}
+.service-card h3{
+    color: dimgrey;
+}
+

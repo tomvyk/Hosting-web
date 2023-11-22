@@ -1,0 +1,44 @@
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+}
+body{
+    margin:unset;
+}
+.nav-link{
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+}
+.nav-link:hover{
+    background-color: grey;
+}
+
+.footer-links{
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-link{
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+}

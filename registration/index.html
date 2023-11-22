@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrace</title>
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../index/sponzor.css">
+</head>
+<header>
+    <nav class="navigation-menu">
+        <ul class="nav-links">
+            <li class="nav-link"><a href="../index.html">Home</a></li>
+            <li class="nav-link"><a href="../service.html">Služby</a></li>
+            <li class="nav-link"><a href="../kontakt.html">Kontakt</a></li>
+            <li class="nav-link"><a href="/registration/index.html">Registrace</a></li>
+            <li class="nav-link"><a href="/index/sponzoři.html">Sponzoři</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 class="registration-heding">Vytvoření zákaznického účtu</h1>
+    <form class="sign-up-form">
+        <label for="title">Oslolvení</label>
+            <select id="title">
+                <option>Pan</option>
+                <option>Paní</option>
+                <option>Nevím</option>
+            </select>
+        <label for="first-name">Křestní jméno</label>
+        <input type="text" id="first-name" placeholder="Jméno:">
+        <label for="last-name">Příjmení</label>
+        <input type="text" id="last-name" placeholder="Příjmení:">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email:">
+        <label for="birthday">Datum Narození</label>
+        <input type="date" id="birthday">
+        <label for="pasword">Heslo</label>
+        <input type="password" id="pasword" placeholder="Heslo:">
+        <div class="checkbox-container">
+        <input type="checkbox" id="agree-terms">
+        <label for="agree-terms">Podmínky použití a nejsem robot</label>
+        </div>
+        <input type="submit" id="button">
+    </form>
+
+
+</main>
+<footer>
+    <nav class="footer-menu">
+        <ul class="footer-links">
+            <li class="footer-link">Podmínky použití</li>
+            <li class="footer-link">Všechna práva vyhrazena</li>
+            <li class="footer-link"><a href="/kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>

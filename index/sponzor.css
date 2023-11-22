@@ -1,0 +1,32 @@
+.sponzori-seznam a{
+    font-size: 28px;
+    list-style: disc;
+    -webkit-text-fill-color: black;
+}
+
+.nazv-sponz {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sponz-text {
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.ohraniceni {
+    border: solid 3px #333;
+    width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px
+}
+
+.obrazky {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px;
+    opacity: 90;
+    text-align: center;
+}

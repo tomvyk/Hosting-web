@@ -1,0 +1,69 @@
+*{
+box-sizing: border-box;
+}
+.sign-up-form label,
+.sign-up-form select,
+.sign-up-form input[type="text"],
+.sign-up-form input[type="email"],
+.sign-up-form input[type="date"],
+.sign-up-form input[type="password"]
+{
+    display: block;
+    margin-top: 7px;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    font-family: inherit;
+    border-radius: 8px;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+.checkbox-container label{
+    margin: 0;
+}
+.checkbox-container input[type="checkbox"]{
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+}
+.sign-up-form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.sign-up-form label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sign-up-form input[type="submit"]{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+    margin-top:15px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.sign-up-form input[type="submit"]:hover{
+    background-color: white;
+    border: solid 2px black;
+    color: black;
+}
+.sign-up-form input[type="text"]:focus,
+.sign-up-form input[type="date"]:focus,
+.sign-up-form input[type="password"]:focus,
+.sign-up-form input[type="email"]:focus {
+    border: none;
+    outline: none;
+    border-bottom: solid 2px rgb(128, 128, 128);
+
+
+}
+input[type="text"]
+
+
